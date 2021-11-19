@@ -12,7 +12,14 @@ namespace App3.page
 
          private void rogin(object sender, EventArgs e)
         {
+            try 
+            { 
+                 
+            }
+            catch
+            {
 
+            }
         }
     }
 }
