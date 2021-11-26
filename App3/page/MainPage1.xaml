@@ -3,9 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App3.page.MainPage1">
 
+    <ContentPage.Content>
     <StackLayout>
         <Entry Placeholder="ユーザーID" x:Name="userID" />
         <Button Text="ログイン" x:Name="rogin">
     </StackLayout>
+    </ContentPage.Content>
 
 </ContentPage>
