@@ -10,17 +10,5 @@ namespace App3.page
             InitializeComponent();
         }
 
-         private void rogin(object sender, EventArgs e)
-        {
-            try 
-            { 
-                 
-            }
-
-            catch
-            {
-
-            }
-        }
     }
 }

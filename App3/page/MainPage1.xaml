@@ -4,9 +4,10 @@
              x:Class="App3.page.MainPage1">
 
     <ContentPage.Content>
-    <StackLayout>
-        <Entry Placeholder="ユーザーID" x:Name="userID" />
-            <Button Text="ログイン" x:Name="rogin"></Button>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 
