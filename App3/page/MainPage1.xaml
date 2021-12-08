@@ -6,8 +6,8 @@
     <ContentPage.Content>
     <StackLayout>
         <Entry Placeholder="ユーザーID" x:Name="userID" />
-        <Button Text="ログイン" x:Name="rogin">
-    </StackLayout>
+            <Button Text="ログイン" x:Name="rogin"></Button>
+        </StackLayout>
     </ContentPage.Content>
 
 </ContentPage>
