@@ -10,7 +10,6 @@
         <ContentPage Title="MainPage3"/>
         <ContentPage Title="MainPage4"/>
       </TabbedPage.Children>
-    </TabbedPage>
   </TabbedPage.Children>
 
 </TabbedPage>
