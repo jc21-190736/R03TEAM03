@@ -4,9 +4,6 @@
             x:Class="App3.page.TabbedPage">
   <!--Pages can be added as references or inline-->
   <TabbedPage.Children>
-    <pages:StopwatchPageView Title="Stopwatch" />
-    <ContentPage Title="Timer" />
-    <TabbedPage Title="Many">
       <TabbedPage.Children>
         <ContentPage Title="MainPage1"/>
         <ContentPage Title="MainPage2"/>
