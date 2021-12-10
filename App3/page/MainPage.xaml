@@ -4,6 +4,15 @@
             xmlns:local="clr-namespace:App3.page"
              x:Class="App3.MainPage">
   <!--Pages can be added as references or inline-->
+    
+    <local:NavPage>
+            <x:Arguments>
+                <Label Text="Hello!" 
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="CenterAndExpand" />
+            </x:Arguments>
+        </local:NavPage>
+    
     <local:MainPage1 Title="MainPage1" />
 
     <local:MainPage2 Title="MainPage2" />
