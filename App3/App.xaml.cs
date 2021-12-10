@@ -8,7 +8,7 @@ namespace App3
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new App3.TabbedPage();
         }
 
         protected override void OnStart()

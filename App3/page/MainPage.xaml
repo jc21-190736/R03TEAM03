@@ -5,21 +5,15 @@
              x:Class="App3.MainPage">
   <!--Pages can be added as references or inline-->
     
-    <local:NavPage>
-            <x:Arguments>
-                <Label Text="Hello!" 
-                       HorizontalOptions="CenterAndExpand"
-                       VerticalOptions="CenterAndExpand" />
-            </x:Arguments>
-        </local:NavPage>
+
     
-    <local:MainPage1 Title="MainPage1" />
+    <ContentPage Title="MainPage1" />
 
-    <local:MainPage2 Title="MainPage2" />
+    <ContentPage Title="MainPage2" />
 
-    <local:MainPage3 Title="MainPage3" />
+    <ContentPage Title="MainPage3" />
 
-    <local:MainPage4 Title="MainPage4" />
+    <ContentPage Title="MainPage4" />
 
     <ContentPage Title="Tab 3" />
 </TabbedPage>
