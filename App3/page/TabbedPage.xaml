@@ -3,9 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:App3.page"
             x:Class="App3.page.TabbedPage">
   <!--Pages can be added as references or inline-->
-        <ContentPage Title="MainPage1"/>
-        <ContentPage Title="MainPage2"/>
-        <ContentPage Title="MainPage3"/>
-        <ContentPage Title="MainPage4"/>
+    <x:Arguments>
+        <local:MainPage1/>
+    </x:Arguments>
+    
+    
+        <local:MainPage2/>
+        <local:MainPage3/>
+        <local:MainPage4/>
 
 </TabbedPage>
