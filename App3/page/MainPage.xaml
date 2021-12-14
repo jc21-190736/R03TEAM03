@@ -6,14 +6,12 @@
   <!--Pages can be added as references or inline-->
     
 
+   <x:Arguments>
+        <local:MainPage1/>
+    </x:Arguments>
     
-    <ContentPage Title="MainPage1" />
-
-    <ContentPage Title="MainPage2" />
-
-    <ContentPage Title="MainPage3" />
-
-    <ContentPage Title="MainPage4" />
-
-    <ContentPage Title="Tab 3" />
+    
+        <local:MainPage2/>
+        <local:MainPage3/>
+        <local:MainPage4/>
 </TabbedPage>
