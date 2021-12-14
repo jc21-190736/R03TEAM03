@@ -5,11 +5,9 @@
              x:Class="App3.MainPage">
   <!--Pages can be added as references or inline-->
     
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+<local:MainPage1 Title="MainPage1" />
+    
+<local:MainPage2 Title="MainPage2" />
+    
+    <ContentPage Title="Tab3" />
 </TabbedPage>
