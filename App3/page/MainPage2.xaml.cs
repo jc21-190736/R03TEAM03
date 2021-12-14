@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace App3.page
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MainPage2 : ContentPage
+    public partial class MainPage2 : NavigationPage
     {
         public MainPage2()
         {

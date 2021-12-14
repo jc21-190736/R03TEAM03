@@ -11,7 +11,7 @@ namespace App3.page
 
 {
    [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MainPage1 : ContentPage
+    public partial class MainPage1 : NavigationPage
     {
         public MainPage1()
         {
